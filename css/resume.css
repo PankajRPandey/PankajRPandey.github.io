@@ -174,3 +174,13 @@ a {
 a:hover, a:focus, a:active {
   color: #018b55;
 }
+
+@media (prefers-color-scheme: dark) {
+  body,
+  .mb-0,
+  .mb-5,
+  .text-dark {
+      color: #ffffff !important;
+      background: #121212;
+  }
+}
